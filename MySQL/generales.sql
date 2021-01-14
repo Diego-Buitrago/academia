@@ -1,7 +1,7 @@
 -- mysql -h localhost -u root -p
 show databases; -- nos permite visualizar las bases de datos en MySQL
-SHOW tables;
-USE academia;
-CREATE USER 'nombre_usuario'@'localhost' IDENTIFIED BY 'tu_contrasena’;
-select user, password from user;
-GRANT ALL privileges ON `academia`.* TO '19901989'@localhost;
+SHOW tables; -- nos permite visualizar las tablas
+USE academia; -- nos permite abrir la tabla
+show engines; -- nos permite visualizar los engines
+desc modulos; -- nos permite visualizar la estroptura de la tabla
+ALTER TABLE modulos -- nos permite modificar la estructura de la tabla
