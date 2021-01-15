@@ -5,6 +5,7 @@ const actores = require('./routes/actores.js');
 require('dotenv').config();
 
 app.use(morgan('dev'));
+app.use(express.json());
 
 //Routes
 app.use('/api', actores);
